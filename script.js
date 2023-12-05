@@ -1,9 +1,6 @@
 var search = document.getElementById('search');
 var mainSubmit = document.querySelector('main-submit');
-var date = document.querySelector('date');
-var humidity = document.querySelector('humidity');
-var wind = document.querySelector('wind');
-var temp = document.querySelector('termperature');
+
 
 
 var weatherAPIKey = '4edbc2e4e408c4f8b63a6eb2e13be206';
