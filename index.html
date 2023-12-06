@@ -17,26 +17,37 @@
 	<header>
 		<img src="logo.png" alt="Logo for Bodesing Events" style="height: 70px;">
 		<h1 class="header-title">Bodesing Events</h1>
-		<input type="search" value="Enter Location here..." class="search">
+		<input type="search" placeholder="Enter Location here..." class="search">
 		<button class="main-submit">Submit</button>
 	</header>
 
 	<hr>
 
 	<section class="right-box">
-		<p class="city"></p>
-		<ul class="events"></ul>
+		<div>
+			<h1 class="city">City</h1>
+		</div>
+		<div class="card-event">
+			Events
+		</div>
 	</section>
 
 	<section class="left-Box">
-		<div class="five-day"></div>
+		<div class="five-day">
+			<h1> Day Forcast </h1>
+		</div>
+		<div class="card-weather">
+			weather for 5 days
+		</div>
 	</section>
 
 	<footer>
 		<hr>
 		<p>Copyright &copy;2023 Austin Nguyen | Karen Bourgeois | Singh Gurvir | Catherine Delaney</p>
-
 	</footer>
+
+	<script src="script.js"></script>
+	<script src="weatherAPI.js"></script>
 
 </body>
 
