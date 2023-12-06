@@ -62,6 +62,8 @@ SO THAT we can gauge our progress compared to our peers
 
 ## Deployment
 
+https://kzefram.github.io/BODESING-Events/ 
+
 ## Installation
 
 There is no installation needed as this is a web application.
