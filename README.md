@@ -78,5 +78,5 @@ The purpose of this website is to make sure users have all of the information to
 - Austin Nguyen,
 - Catherine Delaney,
 - EDx/UNB,
-- Geeks for Geeks
-- Wow Coding Academy
+- Wow Coding Academy,
+- Jeet Mukherjee - https://github.com/Jeet009/WeatherApp/tree/master
