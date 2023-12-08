@@ -10,7 +10,7 @@ const pullWeatherInfo = async (id) => {
     return data[0]
 };
  
-const getCity = async (city) => {
+const searchCity = async (city) => {
     const baseURL = "http://dataservice.accuweather.com/locations/v1/cities/search"
     const query = `?apikey=${key}&q=${city}`;
 
@@ -19,4 +19,4 @@ const getCity = async (city) => {
 
     return data[0];
 };
-console.log(getCity,pullWeatherInfo);
+console.log(searchCity,pullWeatherInfo);
