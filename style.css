@@ -1,0 +1,52 @@
+body {
+  background:lightblue
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.search {
+    
+}
+
+button.main-submit {
+    color: black;
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+.right-box {
+  width: 100px;
+  float: right;
+}
+
+#city {
+
+}
+
+.card-event {
+
+}
+
+.left-box {
+    width: 100px;
+    float: left;
+}
+
+.five-day {
+
+}
+
+.card-weather {
+    
+}
+
+footer {
+    color: darkgrey;
+    text-align: center;
+}
+
+
+
