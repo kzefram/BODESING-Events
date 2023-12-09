@@ -1,7 +1,7 @@
 const apiKey = 'ZnIIvIGonV99xJ9qGt49z7OBV8nQqJSo'; // Replace with your Ticketmaster API key
 
 const searchEvents = async () => {
-    const cityInput = document.getElementById('cityInput').value;
+    const cityInput = document.getElementById('user-form').value;
     const resultsContainer = document.getElementById('results');
 
     // Clear previous results
