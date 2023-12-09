@@ -1,5 +1,6 @@
 body {
-  background:lightblue
+  background:lightblue;
+  padding: 30px;
 }
 
 .header-title {
@@ -7,14 +8,8 @@ body {
   font-size: 30px;
 }
 
-.search {
-    
-}
-
-button.main-submit {
-    color: black;
-    background-color: lightgray;
-    border-color: lightgray;
+.btn {
+  margin-bottom: 25px;
 }
 
 .right-box {
@@ -33,14 +28,6 @@ button.main-submit {
 .left-box {
     width: 100px;
     float: left;
-}
-
-.five-day {
-
-}
-
-.card-weather {
-    
 }
 
 footer {
