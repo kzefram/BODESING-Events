@@ -80,3 +80,5 @@ The purpose of this website is to make sure users have all of the information to
 - EDx/UNB,
 - Wow Coding Academy,
 - Jeet Mukherjee - https://github.com/Jeet009/WeatherApp/tree/master
+- Noahbtaylor -https://github.com/noahbtaylor/06-Server-Side-APIs.git
+- Ianbenjohn-https://github.com/ianbenjohn/Project-1.git
