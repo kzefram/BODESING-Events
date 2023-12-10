@@ -6,34 +6,20 @@ body {
 .header-title {
   font-weight: bold;
   font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .btn {
   margin-bottom: 25px;
 }
 
-.right-box {
-  width: 100px;
+.content  {
   float: right;
-}
-
-#city {
-
-}
-
-.card-event {
-
-}
-
-.left-box {
-    width: 100px;
-    float: left;
 }
 
 footer {
     color: darkgrey;
     text-align: center;
 }
-
-
 
