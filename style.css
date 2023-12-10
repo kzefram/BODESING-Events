@@ -12,21 +12,17 @@ body {
   margin-bottom: 25px;
 }
 
-.right-box {
+.event-box {
   width: 100px;
   float: right;
 }
 
-#city {
-
-}
-
 .card-event {
-
+  padding-left: 30px;
 }
 
 .left-box {
-    width: 100px;
+    width: 70px;
     float: left;
 }
 
@@ -35,5 +31,7 @@ footer {
     text-align: center;
 }
 
-
-
+.five-day {
+  display: flex;
+  
+}

@@ -55,12 +55,17 @@
 
 	    <!-- Section for displaying city-related information and events -->
 
-	<section class="right-box">
-		<dev class="events-title">Events</dev>
-		<div class="card-event">
-			<div id="results"></div>
+	<div class="container event-box">
+		<div class="col-sm-6">
+			<div class="events-title">Events</div>
+			<div class="col-sm-6 card-event">
+				<label for="cityInput">Enter City:</label>
+				<input type="text" id="cityInput">
+				<button onclick="searchEvents()">Search</button>
+				<div id="results"></div>
+			</div>
 		</div>
-	</section>
+	</div>
     <!-- Section for displaying 5-day weather forecast -->
 
 	<section class="left-Box">
@@ -69,7 +74,7 @@
     </div>
 	
 	   <!-- Weather Display Column (test) -->
-	   <div class="col-sm-8">
+	   <div class="col-sm-6">
         <!-- Current Weather -->
         <div class="container" id="currentDay" hidden>
           <div class="border border-dark" id="cityData">
@@ -119,7 +124,7 @@
       crossorigin="anonymous"
     ></script>
 	<script src="./script.js"></script>
-	<link src="eventscript.js"></script>
+	<script src="eventscript.js"></script>
 </body>
 
 </html>
