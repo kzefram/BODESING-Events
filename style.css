@@ -6,24 +6,16 @@ body {
 .header-title {
   font-weight: bold;
   font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .btn {
   margin-bottom: 25px;
 }
 
-.event-box {
-  width: 100px;
+.content  {
   float: right;
-}
-
-.card-event {
-  padding-left: 30px;
-}
-
-.left-box {
-    width: 70px;
-    float: left;
 }
 
 footer {
@@ -31,7 +23,3 @@ footer {
     text-align: center;
 }
 
-.five-day {
-  display: flex;
-  
-}

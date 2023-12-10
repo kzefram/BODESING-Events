@@ -1,14 +1,14 @@
 const apiKey = 'ZnIIvIGonV99xJ9qGt49z7OBV8nQqJSo'; // Replace with your Ticketmaster API key
 
-const searchEvents = async () => {
-    const cityInput = document.getElementById('cityInput').value;
+const searchEvents = function(city) {
+    const cityInput = document.getElementById('userCity').value;
     const resultsContainer = document.getElementById('results');
 
     // Clear previous results
     resultsContainer.innerHTML = '';
 
     try {
-        const events = await getEventsByCity(cityInput);
+        const events = getEventsByCity(cityInput);
         displayEvents(events, resultsContainer);
     } catch (error) {
         console.error('Error searching events:', error.message);
@@ -52,4 +52,7 @@ const getEventsByCity = async (city) => {
         console.error('Error fetching events:', error.message);
         throw error;
     }
+
+    
 };
+

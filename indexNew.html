@@ -52,57 +52,47 @@
 	</header>
 
 	<hr>  <!-- Horizontal rule for visual separation -->
-
-	    <!-- Section for displaying city-related information and events -->
-
-	<div class="container event-box">
-		<div class="col-sm-6">
-			<div class="events-title">Events</div>
-			<div class="col-sm-6 card-event">
-				<label for="cityInput">Enter City:</label>
-				<input type="text" id="cityInput">
-				<button onclick="searchEvents()">Search</button>
-				<div id="results"></div>
+	<br>
+	<div class="container">
+			<h1 class="event-title">Events</h1>
+			<div class="col">
+				<div class="col-sm-12" id="results"></div>
 			</div>
 		</div>
+		<br><br>
+		<div class="container">
+			<h1 class="weather-header">5-Day Forcast</h1>
+			<!-- Weather Display Column (test) -->
+			<div class="col-sm-12">
+				<!-- Current Weather -->
+				<div class="container" id="currentDay" hidden>
+				<div class="border border-dark" id="cityData">
+				<h1 id="city">CityName </h1> 
+				<span id="date"></span>
+				<br>
+				<img id="icon"></img>
+				<p>Temp:<span id="temp"></span></p>
+				<br>
+				<p >Wind:<span id="wind"></span></p>
+				<br>
+				<p>Humidity:<span id="humid"></span></p>
+				</div>
+				</div>
+				<br>
+				<!-- 5-Day Forecast -->
+				<div id="cards" hidden>
+					<h3 class="text-center">5-Day Forecast</h3>
+					<div class="row">
+						<div class="card p-1 col-sm-2 m-3 bg-primary text-light text-center" id="day-1"></div>
+						<div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-2"></div>
+						<div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-3"></div>
+						<div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-4"></div>
+						<div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-5"></div>
+				</div>
+			</div>
 	</div>
-	
-    <!-- Section for displaying 5-day weather forecast -->
-	<section class="left-Box">
-		<div class="five-day">
-			<h1>5-Day Forecast</h1>
-    	</div>
-	
-	   <!-- Weather Display Column (test) -->
-	   <div class="col-sm-6">
-        <!-- Current Weather -->
-        <div class="container" id="currentDay" hidden>
-          <div class="border border-dark" id="cityData">
-           <h1 id="city">CityName </h1> 
-           <span id="date"></span>
-           <br>
-           <img id="icon"></img>
-           <p>Temp:<span id="temp"></span></p>
-           <br>
-           <p >Wind:<span id="wind"></span></p>
-           <br>
-           <p>Humidity:<span id="humid"></span></p>
-          </div>
-        </div>
-        <!-- 5-Day Forecast -->
-        <div id="cards" hidden>
-        <h3 class="text-center">5-Day Forecast</h3>
-        <div class="row">
-            <div class="card p-1 col-sm-2 m-3 bg-primary text-light text-center" id="day-1"></div>
-            <div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-2"></div>
-            <div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-3"></div>
-            <div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-4"></div>
-            <div class="card p-2 col-sm-2 m-3 bg-primary text-light text-center" id="day-5"></div>
-        </div>
-      </div>
-</section>
-    <!-- Footer section for copyright information -->
-
+	<br><br>
+	<!-- Footer section for copyright information -->
 	<footer>
 		<hr> <!-- Horizontal rule for visual separation -->
 		<p>Copyright &copy;2023 Austin Nguyen | Karen Bourgeois | Singh Gurvir | Catherine Delaney</p>
@@ -128,4 +118,3 @@
 </body>
 
 </html>
-
