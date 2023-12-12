@@ -1,6 +1,6 @@
 const apiKey2 = 'ZnIIvIGonV99xJ9qGt49z7OBV8nQqJSo'; // Replace with your Ticketmaster API key
 
-const searchEvents = async function(city) {
+const searchEvents = async () => {
     const cityInput = document.getElementById('cityInput').value;
     const resultsContainer = document.getElementById('results');
 
@@ -26,16 +26,33 @@ const displayEvents = (events, container) => {
 
     events.forEach((event) => {
         const li = document.createElement('li');
-        li.textContent = event.name;
+        const eventName = document.createElement('strong');
+        eventName.textContent = event.name;
+        li.appendChild(eventName);
+
+        const eventDate = document.createElement('span');
+        const eventDateTime = new Date(event.dates.start.dateTime);
+        eventDate.textContent = ` - ${eventDateTime.toDateString()}`;
+        li.appendChild(eventDate);
+
         ul.appendChild(li);
     });
 
     container.appendChild(ul);
 };
-
 const getEventsByCity = async (city) => {
+    const apiKey2 = 'ZnIIvIGonV99xJ9qGt49z7OBV8nQqJSo'; // Replace with your Ticketmaster API key
     const baseURL = 'https://app.ticketmaster.com/discovery/v2/events.json';
-    const queryParams = `?apikey=${apiKey2}&city=${encodeURIComponent(city)}`;
+
+    // Calculate the start and end dates for the next 5 days
+    const today = new Date();
+    const endDate = new Date(today);
+    endDate.setDate(today.getDate() + 5);
+
+    const startDateString = today.toISOString().split('T')[0];
+    const endDateString = endDate.toISOString().split('T')[0];
+
+    const queryParams = `?apikey=${apiKey2}&city=${encodeURIComponent(city)}&startDateTime=${startDateString}T00:00:00Z&endDateTime=${endDateString}T23:59:59Z`;
 
     const url = `${baseURL}${queryParams}`;
 
@@ -46,13 +63,11 @@ const getEventsByCity = async (city) => {
         if (data._embedded && data._embedded.events) {
             return data._embedded.events;
         } else {
-            throw new Error('No events found for the specified city.');
+            throw new Error(`No events found for the city: ${city}`);
         }
     } catch (error) {
         console.error('Error fetching events:', error.message);
         throw error;
     }
-
-    
 };
 
