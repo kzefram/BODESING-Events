@@ -36,16 +36,17 @@
 		<div class="col-sm-4">
 			<form id="user-form">
 			  <div class="mb-3 border-bottom border-dark">
-				<label for="exampleInputEmail1" class="form-label"><span id="city1">Search for a City:</span></label>
+				<label for="exampleInputEmail1" class="form-label"><span id="city1">Search for a Weather:</span></label>
 				<input type="text" class="form-control" id="userCity" placeholder="Ex:Dallas">
 			  <br>
 			  <button type="submit" class="btn btn-primary" id="userSearchbtn">Search</button>
 			</div>
 			</form>
+			
 		 
         <div class="container btn-group-vertical" id="pastSearches">
 			<div>
-			  Past Searches
+			  Past Searches for weather
 			</div>
 		  </div>
 		</div>
@@ -56,6 +57,9 @@
 	<div class="container">
 			<h1 class="event-title">Events</h1>
 			<div class="col">
+				<label for="cityInput">Enter City:</label>
+				<input type="text" id="cityInput">
+				<button onclick="searchEvents()">Search</button>
 				<div class="col-sm-12" id="results"></div>
 			</div>
 		</div>
