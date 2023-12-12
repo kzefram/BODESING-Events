@@ -13,7 +13,6 @@ As a team we have created an event planner application that shows local area eve
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Future Deployment Plans](#future-deployment-plans)
 
 ## User Story
 
@@ -63,8 +62,6 @@ SO THAT we can gauge our progress compared to our peers
 
 ## Deployment
 
-https://kzefram.github.io/BODESING-Events/ 
-
 ## Installation
 
 There is no installation needed as this is a web application.
@@ -83,7 +80,5 @@ The purpose of this website is to make sure users have all of the information to
 - EDx/UNB,
 - Wow Coding Academy,
 - Jeet Mukherjee - https://github.com/Jeet009/WeatherApp/tree/master
-
-## Future Deployment Plans
-
-Under construction
+- Noahbtaylor -https://github.com/noahbtaylor/06-Server-Side-APIs.git
+- Ianbenjohn-https://github.com/ianbenjohn/Project-1.git
