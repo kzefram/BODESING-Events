@@ -66,6 +66,9 @@ Before Search
 After the search
 ![After the search](image-1.png)
 
+Demo video
+[Demo Video](127.0.0.1_5500_indexNew.webm)
+
 ## Deployment
 
 https://kzefram.github.io/BODESING-Events/ 
