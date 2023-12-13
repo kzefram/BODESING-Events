@@ -26,15 +26,25 @@ const displayEvents = (events, container) => {
 
     events.forEach((event) => {
         const li = document.createElement('li');
+
+        // Create an anchor tag for each event
+        const a = document.createElement('a');
+        a.href = event.url; // Use the correct property for the event URL
+        a.target = "_blank"; // Opens the link in a new tab
+
         const eventName = document.createElement('strong');
         eventName.textContent = event.name;
-        li.appendChild(eventName);
 
         const eventDate = document.createElement('span');
         const eventDateTime = new Date(event.dates.start.dateTime);
         eventDate.textContent = ` - ${eventDateTime.toDateString()}`;
-        li.appendChild(eventDate);
 
+        // Append the event name and date to the anchor tag
+        a.appendChild(eventName);
+        a.appendChild(eventDate);
+
+        // Append the anchor tag to the list item
+        li.appendChild(a);
         ul.appendChild(li);
     });
 
@@ -70,4 +80,3 @@ const getEventsByCity = async (city) => {
         throw error;
     }
 };
-
