@@ -60,7 +60,15 @@ SO THAT we can gauge our progress compared to our peers
 
 ## Pictures
 
+Before Search
+![Before the Search](image.png)
+
+After the search
+![After the search](image-1.png)
+
 ## Deployment
+
+https://kzefram.github.io/BODESING-Events/ 
 
 ## Installation
 
