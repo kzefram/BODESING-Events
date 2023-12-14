@@ -83,7 +83,7 @@ The purpose of this website is to make sure users are given information about th
 - Personalized User Profiles and Recommendations: Develop a feature for users to create profiles, where they can input their interests, such as music genres, sports, or types of events they prefer. Use this data to offer tailored event recommendations
 - Advanced Event Filtering and Sorting: Enhance the search functionality with comprehensive filters like event category, age restrictions, and accessibility options
 - Social Integration and Community Building: Introduce social features like event sharing, where users can invite friends through the app or share events on social media platforms.
-- Detailed Weather Forecasts with Notifications: Expand the weather forecast feature to include alerts for severe weather conditions, hourly forecasts, and a 10-day outlook
+- Detailed Weather Forecasts: Expand the weather forecast feature to include alerts for severe weather conditions, hourly forecasts, and a 10-day outlook
 - User Reviews and Ratings: Allow users to rate and review events they have attended. This feedback can help other users make informed decisions and improve the overall quality of event listings
 
 ## Credits
