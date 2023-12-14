@@ -78,6 +78,14 @@ There is no installation needed as this is a web application.
 
 The purpose of this website is to make sure users are given information about the current week's events and weather to ensure that they can make the best decision about which event to go to and how to best prepare for that event. On this site, we have utilized the knowledge we have learned through our studies. In this project we will use: HTML, CSS, APIs, jquery and JavaScript.
 
+## Future Development
+
+- Personalized User Profiles and Recommendations: Develop a feature for users to create profiles, where they can input their interests, such as music genres, sports, or types of events they prefer. Use this data to offer tailored event recommendations
+- Advanced Event Filtering and Sorting: Enhance the search functionality with comprehensive filters like event category, age restrictions, and accessibility options
+- Social Integration and Community Building: Introduce social features like event sharing, where users can invite friends through the app or share events on social media platforms.
+- Detailed Weather Forecasts: Expand the weather forecast feature to include alerts for severe weather conditions, hourly forecasts, and a 10-day outlook
+- User Reviews and Ratings: Allow users to rate and review events they have attended. This feedback can help other users make informed decisions and improve the overall quality of event listings
+
 ## Credits
 
 - Karen Bourgeois,
