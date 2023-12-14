@@ -48,7 +48,7 @@ SO THAT users can make informed decisions about which events to attend
 - THEN we will address the following concepts:
   - Our user story
   - Motivations for the project
-  - Technologies used 
+  - Technologies used
   - Task delgation
   - Challenges and Successes
   - Future Deployment
@@ -64,11 +64,11 @@ After the search
 ![After the search](image-1.png)
 
 Demo video
-[Demo Video](127.0.0.1_5500_indexNew.webm)
+[Demo Video](127.0.0.1_5500_indexNew1.mp4)
 
 ## Deployment
 
-https://kzefram.github.io/BODESING-Events/ 
+https://kzefram.github.io/BODESING-Events/
 
 ## Installation
 
@@ -92,7 +92,7 @@ The purpose of this website is to make sure users are given information about th
 - Singh Gurvir,
 - Austin Nguyen,
 - Catherine Delaney,
-- https://www.joshwcomeau.com/css/custom-css-reset/, 
+- https://www.joshwcomeau.com/css/custom-css-reset/,
 - EDx/UNB,
 - Wow Coding Academy,
 - Jeet Mukherjee - https://github.com/Jeet009/WeatherApp/tree/master
